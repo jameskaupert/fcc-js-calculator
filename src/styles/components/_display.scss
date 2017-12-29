@@ -1,4 +1,4 @@
-.display {
+.display-wrapper {
   background: $primary-color-dark;
   border: 1px solid $primary-text-color;
   color: $primary-color-text;
@@ -10,7 +10,6 @@
 
 .calc-display {
   text-align: right;
-  width: 100%;
   flex: 1;
   display: flex;
   align-items: center;
@@ -22,16 +21,13 @@
     padding: $xs-size;
 }
 
-.output-display {
+.display {
   text-align: right;
   flex: 1;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: $xs-size;
+  font-size: $l-size;
 }
 
-.output-display p {
-    padding: $xs-size;
-    font-size: $l-size;
-}

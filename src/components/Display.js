@@ -2,12 +2,12 @@ import React from "react";
 
 const Display = props => {
   return (
-    <div id="display" className="display">
+    <div id="display-wrapper" className="display-wrapper">
       <div id="calc-display" className="calc-display">
         <p>{props.currentCalculation}</p>
       </div>
-      <div id="output-display" className="output-display">
-        <p>{props.currentOutput}</p>
+      <div id="display" className="display">
+        {props.currentOutput}
       </div>
     </div>
   );

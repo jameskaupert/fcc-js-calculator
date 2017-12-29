@@ -1,0 +1,93 @@
+.keypad {
+  border-bottom: 1px solid $primary-text-color;
+  border-left: 1px solid $primary-text-color;
+  border-right: 1px solid $primary-text-color;
+  flex: 5;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.clear-btn,
+.divide-btn,
+.seven-btn,
+.eight-btn,
+.nine-btn,
+.four-btn,
+.five-btn,
+.six-btn,
+.one-btn,
+.two-btn,
+.three-btn {
+    border-right: 1px solid $divider-color;
+    border-bottom: 1px solid $divider-color;
+}
+
+.multiply-btn,
+.subtract-btn,
+.add-btn {
+    border-bottom: 1px solid $divider-color;
+}
+
+.zero-btn,
+.decimal-btn {
+    border-right: 1px solid $divider-color;
+}
+
+.clear-btn {
+    width: 50%;
+    height: 20%;
+}
+
+.divide-btn,
+.multiply-btn {
+    width: 25%;
+    height: 20%;
+}
+
+.seven-btn,
+.eight-btn,
+.nine-btn,
+.subtract-btn,
+.four-btn,
+.five-btn,
+.six-btn,
+.add-btn {
+    width: 25%;
+    height: 20%;
+}
+
+.rows-3-4 {
+    height: 40%;
+    display: flex;
+}
+
+.cols-0-2 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.row-3,
+.row-4 {
+    display: flex;
+    flex: 1;
+}
+
+.one-btn,
+.two-btn,
+.three-btn,
+.decimal-btn {
+    flex: 1;
+}
+
+.zero-btn {
+    flex: 2;
+}
+
+.equals-btn {
+    width: 25%;
+    height: 100%;
+}
+
+

@@ -1,5 +1,37 @@
 .display {
-    border: 1px solid black;
-    flex: 1;
-    width: 100%;
+  background: $primary-color-dark;
+  border: 1px solid $primary-text-color;
+  color: $primary-color-text;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.calc-display {
+  text-align: right;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 4px;
+}
+
+.calc-display p {
+    padding: $xs-size;
+}
+
+.output-display {
+  text-align: right;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.output-display p {
+    padding: $xs-size;
+    font-size: $l-size;
 }

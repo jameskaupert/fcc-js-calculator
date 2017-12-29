@@ -4,10 +4,10 @@ const Display = props => {
   return (
     <div id="display" className="display">
       <div id="calc-display" className="calc-display">
-        {props.currentCalculation}
+        <p>{props.currentCalculation}</p>
       </div>
       <div id="output-display" className="output-display">
-        {props.currentOutput}
+        <p>{props.currentOutput}</p>
       </div>
     </div>
   );

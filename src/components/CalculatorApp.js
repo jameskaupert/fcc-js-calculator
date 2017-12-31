@@ -5,7 +5,8 @@ import Keypad from "./Keypad";
 export default class CalculatorApp extends React.Component {
   state = {
     currentCalculation: "",
-    currentOutput: "0"
+    currentOutput: "0",
+    finishedCalc: false
   };
   handleClick = e => {
     let key = e.target.innerHTML;
